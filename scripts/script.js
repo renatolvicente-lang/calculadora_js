@@ -14,5 +14,7 @@ function multi(a,b){
     return console.log(a * b);
 }
 function divi(a,b){
+    let a = document.getElementById("numero1");
+    let b = document.getElementById("numero2");
     return console.log(a / b);
 }
