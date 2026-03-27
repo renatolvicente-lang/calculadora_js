@@ -6,7 +6,7 @@ function soma(a,b){
     const num2 = parseFloat(document.getElementById("numero2").value);//.value serve para pegar o valor que está dentro o input ao invez de pegar o input
     
     const res = num1 + num2; // aqui ele soma os dois numeros
-    document.getElementById("resultado").value = res; //aqui ele exibe o resultado no output
+    document.getElementById("resultado").value = res; //aqui ele exibe o resultado no output substituindo o valor dele pesa operação feitas
     
 }
 
@@ -25,7 +25,7 @@ const input_multi = document.getElementById("*").addEventListener("click", multi
 function multi(a,b){
     const num1 = parseFloat(document.getElementById("numero1").value);
     const num2 = parseFloat(document.getElementById("numero2").value);
-    
+
     const res = num1 * num2;
     document.getElementById("resultado").value = res;
 }

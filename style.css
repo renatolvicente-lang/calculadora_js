@@ -11,19 +11,25 @@ main{
     margin: auto;
     margin-top: 20px;
     max-width: 800px;
+    height: 600px;
     text-align: center;
     padding: 20px;
-    border-radius: 30px;
+    border-radius: 60px;
 }
 form{
-    padding: 10px;
+    padding: 60px;
 }
 .valores{
+    background-color: rgba(77, 136, 124, 0.8);
     display: flex;
+    max-width: 700px;
     border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.284);
     padding: 10px;
 }
 output{
+    display: flex;
     margin: 20px;
     width: 20px;
     padding: 10px;
@@ -34,5 +40,6 @@ output{
 input{
     margin: 10px;
     padding: 20px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.284);
     border-radius: 20px;
 }
