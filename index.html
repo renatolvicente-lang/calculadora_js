@@ -15,15 +15,16 @@
             <h2>Aqui está a calculadora:</h2>
 
             <form>
-                <label for="numero1">Digite o Primeiro numero: </label><br>
-                <input type="number" name="numero1" id="numero1"><br>
-                <label for="numero2">Digite o Segundo numero: </label><br>
-                <input type="number" name="numero2" id="numero2"><br>
-                
-                <input type="button" value="Somar" onclick="soma(numero1, numero2)">
-                <input type="button" value="Subtrair" onclick="sub(numero1, numero2)">
-                <input type="button" value="Multiplicar" onclick="multi(numero1, numero2)">
-                <input type="button" value="Dividir" onclick="divi(numero1, numero2)"> <br>
+                <div>
+                    <label for="numero1">Digite os numeros: </label><br>
+                    <input type="number" name="numero1" id="numero1"><br>
+                    <input type="number" name="numero2" id="numero2"><br>
+                </div>
+                <input type="button" value="+" onclick="soma(numero1, numero2)">
+                <input type="button" value="-" onclick="sub(numero1, numero2)">
+                <input type="button" value="*" onclick="multi(numero1, numero2)">
+                <input type="button" value="/" onclick="divi(numero1, numero2)"> <br>
+
 
                 <input type="reset" value="Limpar">
             </form>
