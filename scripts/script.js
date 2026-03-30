@@ -11,7 +11,7 @@ function soma(a,b){
     
 }
 
-const input_sub = document.getElementById("-").addEventListener("click", sub)
+const input_sub = document.getElementById("-").addEventListener("click", sub);
 
 function sub(a,b){
     const num1 = parseFloat(document.getElementById("numero1").value);
@@ -22,7 +22,7 @@ function sub(a,b){
     document.getElementById("resultado").value = res;
 }
 
-const input_multi = document.getElementById("*").addEventListener("click", multi)
+const input_multi = document.getElementById("*").addEventListener("click", multi);
 
 function multi(a,b){
     const num1 = parseFloat(document.getElementById("numero1").value);
@@ -32,7 +32,7 @@ function multi(a,b){
     historico.push(res)
     document.getElementById("resultado").value = res;
 }
-const input = document.getElementById("/").addEventListener("click", divi)
+const input = document.getElementById("/").addEventListener("click", divi);
 
 function divi(a,b){
     const num1 = parseFloat(document.getElementById("numero1").value);
